@@ -1,0 +1,64 @@
+.ui-content {
+	background-color: #003366; 
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.ui-bar-b {
+	color: #fff;
+	background: #003366;
+}
+
+.ui-page {
+	background-color: #003366;
+}
+
+
+#es img {
+	width: 100%;
+}
+
+#rmdos img {
+	width: 100%;
+}
+
+#cc img {
+	width: 100%;
+}
+
+#trtgna img {
+	width: 100%;
+}
+
+#etsm img {
+	width: 100%;
+}
+
+#guest img {
+	width: 100%;
+}
+
+#vendorbreakouts img {
+	width: 100%;
+}
+
+#vendor img {
+	width: 100%;
+}
+
+#vendorpdf img {
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	width: 100%;
+}
+
+#buttons img {
+	width: 32%
+}
+
+#speak img {
+	width: 200px;
+}
