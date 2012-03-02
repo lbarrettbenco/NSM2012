@@ -18,7 +18,9 @@
 <!-- Start of first page: #home -->
 <div data-role="page" id="home" data-theme="e">
 	<div id="vendorpdf">
-		<img src="./icons/title.png"/>
+		<a href="#info">
+			<img src="./icons/title.png"/>
+		</a>
 	</div>
 
 	<div data-role="content" >
@@ -665,6 +667,7 @@
 			<li><a href="#pdt">PDT, Inc./Paradise Dental Technologies</a></li>
 			<li><a href="#pc">Pelton & Crane/KaVo</a></li>
 			<li><a href="#pentron">Pentron/TotalCare</a></li>
+			<li><a href="#practice">Practice GPS Online Services</a></li>
 			<li><a href="#premier">Premier Dental Products Co</a></li>
 			<li><a href="#pg">Proctor & Gamble (Crest/Oral B)</a></li>
 			
@@ -742,6 +745,10 @@
 		<img src="./vendor_pdf/3m1.jpg"/>
 		<img src="./vendor_pdf/3m2.jpg"/>
 	</div><!-- /content -->
+	
+	<div data-role="footer">
+		<a href ="./pdf/3m1.pdf" rel="external" data-icon="star" data-theme="c" class="ui-btn-center jqm-home">Download</a>
+	</div>
 </div><!-- /page 3m -->
 
 <!-- Start of second page: #atitan-->
@@ -975,11 +982,14 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Carestream-Digital Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/carestreamdigital1.jpg"/>
+		<img src="./vendor_pdf/carestreamdigital2.jpg"/>
+	</div><!-- /content -->
+	
+		<div data-role="footer">
+		<a href ="./pdf/carestreamdigital.pdf" rel="external" data-icon="star" data-theme="c" class="ui-btn-center jqm-home">Download</a>
+	</div>
 </div><!-- /page carestreamd -->
 
 <!-- Start of second page: #carestreamt-->
@@ -992,11 +1002,9 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Carestream-Traditional Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/carestream1.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page carestreamt -->
 
 <!-- Start of second page: #cavex-->
@@ -1009,11 +1017,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Cavex Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/cavex1.jpg"/>
+		<img src="./vendor_pdf/cavex2.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page cavex -->
 
 <!-- Start of second page: #coltene-->
@@ -1106,11 +1113,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Dentsply Professional Page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/dentsplypro1.jpg"/>
+		<img src="./vendor_pdf/dentsplypro2.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page dentsplyprof -->
 
 <!-- Start of second page: #dmg-->
@@ -1160,6 +1166,10 @@
 		<img src="./vendor_pdf/gc1.jpg"/>
 		<img src="./vendor_pdf/gc2.jpg"/>
 	</div><!-- /content --> 
+	
+		<div data-role="footer">
+		<a href ="./pdf/gc.pdf" rel="external" data-icon="star" data-theme="c" class="ui-btn-center jqm-home">Download</a>
+	</div>
 </div><!-- /page gc -->
 
 <!-- Start of second page: #gendex-->
@@ -1172,11 +1182,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Gendex Page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/gendex1.jpg"/>
+		<img src="./vendor_pdf/gendex2.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page gendex -->
 
 <!-- Start of second page: #hereaus-->
@@ -1319,11 +1328,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Integrated Laminate Systems Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/ils1.jpg"/>
+		<img src="./vendor_pdf/ils2.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page ils -->
 
 <!-- Start of second page: #ivoclar-->
@@ -1669,10 +1677,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Coming Soon</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/pc.jpg"/>
+		<img src="./vendor_pdf/kavo.jpg"/>
 	</div><!-- /content --> 
-
 
 </div><!-- /page pc -->
 
@@ -1691,6 +1699,21 @@
 		<img src="./vendor_pdf/pentron2.jpg"/>
 	</div><!-- /content -->
 </div><!-- /page pentron -->
+
+<!-- Start of second page: #practice-->
+<div data-role="page" id="practice" data-theme="e">
+
+	<div data-role="header">
+	<a href="#vendors" data-icon="arrow-l" data-direction="reverse" class="ui-btn-left jqm-home" data-theme="c" >Back</a>
+	<a href="#home" data-icon="home" data-direction="reverse" class="ui-btn-right jqm-home" data-iconpos="notext" data-theme="c" >Home</a>
+		<h1>Practice GPS Online Services</h1>
+
+	</div><!-- /header -->
+
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/practice1.jpg"/>
+	</div><!-- /content -->
+</div><!-- /page practice -->
 
 <!-- Start of second page: #premier-->
 <div data-role="page" id="premier" data-theme="e">
@@ -1755,11 +1778,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Roydent Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/roydent2.jpg"/>
+		<img src="./vendor_pdf/roydent1.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page roydent -->
 
 <!-- Start of second page: #sci-->
@@ -1789,11 +1811,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>SDI Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/sdi1.jpg"/>
+		<img src="./vendor_pdf/sdi2.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page sdi -->
 
 <!-- Start of second page: #semper -->
@@ -1807,7 +1828,8 @@
 	</div><!-- /header -->
 
 	<div id="vendorpdf" data-role="content" data-theme="c">	
-		<img src="./vendor_pdf/semper1.jpg"/>
+		<img src="./vendor_pdf/semermed1.jpg"/>
+		<img src="./vendor_pdf/semper2.jpg"/>
 	</div><!-- /content -->
 </div><!-- /page sempermed -->
 
@@ -1838,11 +1860,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Shofu Page</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/shofu1.jpg"/>
+		<img src="./vendor_pdf/shofu2.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page shofu -->
 
 <!-- Start of second page: #sirona-->
@@ -2004,11 +2025,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Young Dental Page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/young1.jpg"/>
+		<img src="./vendor_pdf/young2.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page young -->
 
 <!-- Start of second page: #zirc-->
