@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://external.benco.com/nsm2012/"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.benco.nsm2012"
+        versionCode="10" <!-- optional: Android only -->
+        version   = "1.0.0">
+
+    <name>NSM 2012</name>
+
+    <description>
+        Config file for the application.
+    </description>
+
+	<preference name="fullscreen" value="true" />
+    <!-- if a single splash screen is specified it will be used for all platforms.
+    Multiple splash screens are recommended for iOS -->
+    <gap:splash src="./splashscreen.png" />
+
+     <!-- if a single icon is specified then Build will use it for all platforms -->
+    <icon src="./icons/icon_final.png" default="true"/>
+
+
+</widget>
