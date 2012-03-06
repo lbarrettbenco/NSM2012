@@ -16,8 +16,5 @@
     Multiple splash screens are recommended for iOS -->
     <gap:splash src="./splashscreen.png" />
 
-     <!-- if a single icon is specified then Build will use it for all platforms -->
-    <icon src="./icons/icon_final.png" default="true"/>
-
 
 </widget>
