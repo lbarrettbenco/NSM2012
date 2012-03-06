@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns = "http://external.benco.com/nsm2012/"
+    <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.benco.nsm2012"
-        versionCode="10" 
-        version   = "1.0.0">
-		
-    <name>NSM</name>
-
+        version   = "1.0.0">	
+	<name>NSM 2012</name>
     <description>
         Config file for the application.
     </description>
-	
 	<author href="http://www.benco.com" email="lbarrett@benco.com">Liz Barrett</author>
-
 	<preference name="fullscreen" value="true" />
-
-	
     <gap:splash src="/splashscreen.png" />
-
-
 </widget>
