@@ -5,17 +5,18 @@
         versionCode="10" 
         version   = "1.0.0">
 		
-    <app title>NSM 2012</app title>
+    <name>NSM</name>
 
     <description>
         Config file for the application.
     </description>
+	
+	<author href="http://www.benco.com" email="lbarrett@benco.com">Liz Barrett</author>
 
 	<preference name="fullscreen" value="true" />
+
 	
-    <!-- if a single splash screen is specified it will be used for all platforms.
-    Multiple splash screens are recommended for iOS -->
-    <gap:splash src="./splashscreen.png" />
+    <gap:splash src="/splashscreen.png" />
 
 
 </widget>
