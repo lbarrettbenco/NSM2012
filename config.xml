@@ -6,6 +6,7 @@
         version   = "1.0.0">
 
     <name>NSM 2012</name>
+	<title>NSM 2012</title>
 
     <description>
         Config file for the application.
