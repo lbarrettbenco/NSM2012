@@ -46,8 +46,8 @@
 			<a href="#success">
 				<img src="./icons/success.png"/>
 			</a>
-			<a href="http://external.benco.com/NSMVideo/Video/TIS">
-				<img src="./icons/tisvid.png"/>
+			<a href="#video">
+				<img src="./icons/vid.png"/>
 			</a>
 
 		</div>
@@ -63,10 +63,10 @@
 			<h1>Info</h1>
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>This awesome app was created by the Barrett's #hellyeah</p>
-
-	</div><!-- /content --> 
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/barretts.jpg"/>
+		<p>This application was created by the Barrett family at Benco Dental.</p>
+	</div><!-- /content -->
 	
 	<div data-role="collapsible" data-theme="c" data-content-theme="c">
 		<h3>Liz Barrett</h3>	
@@ -357,21 +357,23 @@
 	</div>
 </div><!-- /page vendor -->
 
-<!-- Start of second page: #tis-->
-<div data-role="page" id="tis" data-theme="e">
+<!-- Start of second page: #video-->
+<div data-role="page" id="video" data-theme="e">
 
 	<div data-role="header">
 	<a href="#home" data-icon="arrow-l" data-direction="reverse" class="ui-btn-left jqm-home" data-theme="c" >Back</a>
 	<a href="#home" data-icon="home" data-direction="reverse" class="ui-btn-right jqm-home" data-iconpos="notext" data-theme="c" >Home</a>
-		<h1>TIS Videos</h1>
+		<h1>Videos</h1>
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Coming Soon</p>
-	</div><!-- /content --> 
-
-</div><!-- /page tis -->
+	<div data-role="listview" data-theme="e">	
+		<ul data-role="listview" data-theme="c">
+			<li><a href="http://external.benco.com/NSMVideo/Video/TIS" rel="external" target="_blank">TIS Videos</a></li>
+			<li><a href="http://www.youtube.com/watch?v=iezAPaQvzFI" rel="external" target="_blank">Incisal Edge</a></li>
+		</ul>
+	</div><!-- /listview --> 
+</div><!-- /page video -->
 
 
 <!-- Start of second page: #map -->
@@ -544,9 +546,9 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Coming Soon</p>
-	</div><!-- /listview --> 
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./success_pdf/prosperity.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page success6 -->
 
