@@ -46,6 +46,10 @@
 			<a href="#success">
 				<img src="./icons/success.png"/>
 			</a>
+			<a href="http://external.benco.com/NSMVideo/Video/TIS">
+				<img src="./icons/tisvid.png"/>
+			</a>
+
 		</div>
 	</div>
 </div><!-- /page home -->
@@ -91,14 +95,17 @@
 
 	<div data-role="listview" data-theme="e">	
 		<ul data-role="listview" data-theme="c">
-			<li><a href="#cc">CC/2010 Region of the Year</a></li>
-			<li><a href="#rmdos">RM/DoS</a></li>
-			<li><a href="#trtgna">TR/TGNA</a></li>
-			<li><a href="#es">ES</a></li>
-			<li><a href="#rsvm">RSVM</a></li>
+		    <li><a href="#cc">2010 Region of the Year</a></li>
+			<li><a href="#cc">Chairman's Club</a></li>
+			<li><a href="#rmdos">Directors of Sales</a></li>
+			<li><a href="#es">Equipment Specialists</a></li>
 			<li><a href="#guest">Guest</a></li>
-			<li><a href="#vendorbreakouts">Vendor Fair & Breakout Rotations</a></li>
+			<li><a href="#rmdos">Regional Managers</a></li>
+			<li><a href="#rsvm">Regional Service Managers</a></li>
+			<li><a href="#trtgna">Territory Representatives</a></li>
+			<li><a href="#trtgna">Transitions Group NA</a></li>
 			<li><a href="#vendor">Vendor Agenda</a></li>
+			<li><a href="#vendorbreakouts">Vendor Fair & Breakout Rotations</a></li>
 		</ul>
 	</div><!-- /listview --> 
 
@@ -307,11 +314,12 @@
 		
 	<div data-role="collapsible" data-theme="c" data-content-theme="c">
 		<h3>Friday, March 16</h3>	
-		<img src="./agenda_images/vendorbreakout1.png"/>
+		<img src="./agenda_images/vendor1.png"/>
+		<img src="./agenda_images/vendor2.png"/>
 	</div>
 	<div data-role="collapsible" data-theme="c" data-content-theme="c">
 		<h3>Saturday, March 17</h3>	
-		<img src="./agenda_images/vendorbreakout2.jpg"/>
+		<img src="./agenda_images/vendor3.png"/>
 	</div>
 	
 
@@ -349,6 +357,22 @@
 	</div>
 </div><!-- /page vendor -->
 
+<!-- Start of second page: #tis-->
+<div data-role="page" id="tis" data-theme="e">
+
+	<div data-role="header">
+	<a href="#home" data-icon="arrow-l" data-direction="reverse" class="ui-btn-left jqm-home" data-theme="c" >Back</a>
+	<a href="#home" data-icon="home" data-direction="reverse" class="ui-btn-right jqm-home" data-iconpos="notext" data-theme="c" >Home</a>
+		<h1>TIS Videos</h1>
+
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="c">	
+		<p>Coming Soon</p>
+	</div><!-- /content --> 
+
+</div><!-- /page tis -->
+
 
 <!-- Start of second page: #map -->
 <div data-role="page" id="map" data-theme="e">
@@ -362,8 +386,8 @@
 
 	<div data-role="listview" data-theme="e">	
 		<ul data-role="listview" data-theme="c">
-			<li><a href="#map1">Hotel</a></li>
 			<li><a href="#map2">Conference Center</a></li>
+			<li><a href="#map1">Hotel</a></li>
 		</ul>
 	</div><!-- /listview --> 
 
@@ -469,10 +493,9 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Coming Soon</p>
-	</div><!-- /listview --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./success_pdf/kois.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page success3 -->
 
 <!-- Start of second page: #success4 -->
@@ -599,7 +622,7 @@
 
 	<div data-role="content" data-theme="a">	
 		<ul data-role="listview" data-filter="true" data-filter-placeholder="Filter Vendors" data-filter-theme="b">
-			<li data-role="list-divider">3</li>
+			<li data-role="list-divider">#</li>
 			<li><a href="#3m">3M ESPE</a></li>
 			
 			<li data-role="list-divider">A</li>
@@ -1077,9 +1100,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Crosstex Page</p>
-	</div><!-- /content --> 
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/crosstex1.jpg"/>
+		<img src="./vendor_pdf/crosstex2.jpg"/>
+	</div><!-- /content -->
 
 
 </div><!-- /page crosstex -->
@@ -1306,10 +1330,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Instrumentarium/Soredex</p>
-	</div><!-- /content --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/soredex1.jpg"/>
+		<img src="./vendor_pdf/soredex2.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page instru -->
 
@@ -1323,11 +1347,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Integra Miltex</p>
-	</div><!-- /content --> 
-
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/integra1.jpg"/>
+		<img src="./vendor_pdf/integra2.jpg"/>
+	</div><!-- /content -->
 </div><!-- /page integra -->
 
 <!-- Start of second page: #ils-->
@@ -1535,11 +1558,9 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Milestone Scientific page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/milestone.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page miles -->
 
 <!-- Start of second page: #mydent -->
@@ -1552,11 +1573,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Mydent Page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/mydent1.jpg"/>
+		<img src="./vendor_pdf/mydent2.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page mydent -->
 
 <!-- Start of second page: #myray-->
@@ -1705,6 +1725,7 @@
 
 	<div id="vendorpdf" data-role="content" data-theme="c">	
 		<img src="./vendor_pdf/practice1.jpg"/>
+		<img src="./vendor_pdf/practice2.jpg"/>
 	</div><!-- /content -->
 </div><!-- /page practice -->
 
@@ -1787,10 +1808,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>SciCan, Inc. Page</p>
-	</div><!-- /content --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/scican1.jpg"/>
+		<img src="./vendor_pdf/scican2.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page sci -->
 
@@ -1836,10 +1857,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Septodont Page</p>
-	</div><!-- /content --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/septodont1.jpg"/>
+		<img src="./vendor_pdf/septodont2.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page sept -->
 
@@ -1885,10 +1906,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>SOTA Imaging Page</p>
-	</div><!-- /content --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/sota1.jpg"/>
+		<img src="./vendor_pdf/sota2.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page sota -->
 
@@ -1949,10 +1970,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>TIDI Products</p>
-	</div><!-- /content --> 
-
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/tidi1.jpg"/>
+		<img src="./vendor_pdf/tidi2.jpg"/>
+	</div><!-- /content -->
 
 </div><!-- /page tidi -->
 
@@ -1984,11 +2005,10 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Vatech America</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/vatech1.jpg"/>
+		<img src="./vendor_pdf/vatech2.jpg"/>
 	</div><!-- /content --> 
-
-
 </div><!-- /page vatech -->
 
 <!-- Start of second page: #vista-->
@@ -2001,8 +2021,9 @@
 
 	</div><!-- /header -->
 
-	<div data-role="content" data-theme="c">	
-		<p>Vista Dental Products Page</p>
+	<div id="vendorpdf" data-role="content" data-theme="c">	
+		<img src="./vendor_pdf/vista1.jpg"/>
+		<img src="./vendor_pdf/vista2.jpg"/>
 	</div><!-- /content --> 
 
 
